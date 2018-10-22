@@ -1,0 +1,27 @@
+body {
+   background-image: url(../img/space404.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+p {
+   color:skyblue;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#error404{
+   text-align: center;
+   margin-top: 50%;
+}
+
+ #github {
+    color:#0FEBFF;
+    text-align: center;
+ }
+
+ #github:hover {
+    color: red;
+    transition: 1s;
+
+ }

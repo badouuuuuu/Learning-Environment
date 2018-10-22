@@ -1,0 +1,27 @@
+body {
+   background-color: powderblue;
+}
+
+#by {
+   color: grey;
+   font-size: 9px;
+   text-align: center;
+}
+
+h1 {
+   color: #143BFF;
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+   background-color: rgb(44, 157, 228);
+}
+p {
+   color: #A30CE8;
+}
+
+li:hover {
+   color:yellow;
+}
+
