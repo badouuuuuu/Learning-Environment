@@ -1,36 +1,36 @@
 body {
-   background-image: url(../img/space404.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   font-family: 'Exo', sans-serif;
-   margin:auto;
-   display: grid;
-   position: relative;
+    background-image: url(../img/space404.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Exo', sans-serif;
+    margin: auto;
+    display: grid;
+    position: relative;
 }
 
 .block404 {
     text-align: center;
-    margin:auto;
+    margin: auto;
     vertical-align: middle;
     display: grid;
     position: block;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 
 h1 {
-   color:rgba(25, 97, 141);
-   font-size: 200px;
-   font-weight: bold;
+    color: rgba(25, 97, 141);
+    font-size: 200px;
+    font-weight: bold;
 }
 
 p {
-   color:rgb(228, 247, 255);
-   font-size: 16px;
-   font-weight: bold;
+    color: rgb(228, 247, 255);
+    font-size: 16px;
+    font-weight: bold;
 }
 
- button {
-    color:white;
+button {
+    color: white;
     background-color: rgb(25, 97, 141);
     font-size: 30px;
     border: none;
@@ -39,18 +39,15 @@ p {
     cursor: pointer;
     outline: none;
     transition: 0.1s;
- }
+}
 
- button:hover {
-     background: rgb(25, 97, 141);
-     box-shadow: 0 0 20px 3px red;
-     transform: scale(1.10);
- }
+button:hover {
+    background: rgb(25, 97, 141);
+    box-shadow: 0 0 20px 3px red;
+    transform: scale(1.10);
+}
 
- button:active {
-    box-shadow: 5 0 5px 8px rgba(16, 155, 255, 0.53); 
-    transform: scale(0.80);   
- }
-
- 
-  
+button:active {
+    box-shadow: 5 0 5px 8px rgba(16, 155, 255, 0.53);
+    transform: scale(0.80);
+}
