@@ -17,10 +17,37 @@ body {
    background-color: rgba(20, 76, 85, 0.6);
    opacity: 5%;
    width: 100%;
-   height: 120px;
+   height: 125px;
    border-radius: 0 0 25px 25px;
-   position: fixed;
+   position: relative;
 }
+
+h1 {
+  font-size: 
+}
+
+h1 , h2 {
+  color:white;
+}
+
+section {
+  text-align: center;  
+}
+
+#bienvenue-title {
+  height:100px;
+  left:960px;
+}
+
+.citation {
+  color: rgb(10, 41, 46);
+}
+
+#corps {
+
+  display: inline-block;
+}
+
 
 p {
   color: white;
@@ -42,17 +69,16 @@ li , a {
   list-style-type:none;
   color:white;
    text-decoration: none;
-   float:left;
    padding-right: 15px;
+   display: inline;
 }
-
 
 /* ---- Footer ---- */
 
 footer {
   margin: 0 auto;
   bottom:0;
-  position:fixed;
+  position:absolute;
   background-color: rgba(20, 76, 85, 0.658);
   opacity: 5%;
   width: 100%;
@@ -61,8 +87,10 @@ footer {
 }
 
 .iconsocial {
-  width: 48px;
+  width: 40px;
   position: relative;
   left:50%;
   padding-top: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
