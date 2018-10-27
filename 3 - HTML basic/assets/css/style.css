@@ -73,6 +73,18 @@ li , a {
    display: inline;
 }
 
+#likedquote {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.photo{
+  display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 /* ---- Footer ---- */
 
 footer {
@@ -86,11 +98,15 @@ footer {
   border-radius: 25px 25px 0 0;
 }
 
+#video {
+  padding-top: 15px;
+}
+
 .iconsocial {
-  width: 40px;
+  width: 36px;
   position: relative;
-  left:50%;
-  padding-top: 35px;
-  padding-left: 30px;
-  padding-right: 30px;
+  left:45%;
+  padding-top: 40px;
+  padding-left: 24px;
+
 }
