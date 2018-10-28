@@ -73,6 +73,18 @@ li , a {
    display: inline;
 }
 
+#likedquote {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.photo{
+  display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 /* ---- Footer ---- */
 
 footer {
@@ -86,6 +98,7 @@ footer {
   text-align: center;
 }
 
+<<<<<<< HEAD
 #social {
   padding-left:300px;
   width: 40px;
@@ -96,4 +109,17 @@ footer {
   padding-top: 45px;
   padding-left:55px;
   width:30px;
+=======
+#video {
+  padding-top: 15px;
+}
+
+.iconsocial {
+  width: 36px;
+  position: relative;
+  left:45%;
+  padding-top: 40px;
+  padding-left: 24px;
+
+>>>>>>> 5644e44d3d0f6ddb9965fbfe50781c530467c04a
 }
