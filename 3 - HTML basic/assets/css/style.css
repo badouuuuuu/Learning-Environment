@@ -1,6 +1,5 @@
 html {
-  width:100%;
-  height:100%;
+
 }
 
 body {  
@@ -10,14 +9,16 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 
 #layer {
    top:0;
    background-color: rgba(20, 76, 85, 0.6);
-   opacity: 5%;
+
    width: 100%;
-   height: 125px;
+   height: 80px;
    border-radius: 0 0 25px 25px;
    position: relative;
 }
@@ -61,39 +62,44 @@ p {
 ul {
 float:right;
 text-align: right;
-padding-top: 35px;
+padding-top: 30px;
 }
 
 li , a {
-  font-size: 20px;
+  font-size: 14px;
   list-style-type:none;
-  color:white;
+   color:white;
    text-decoration: none;
    padding-right: 15px;
    display: inline;
 }
 
 #likedquote {
-  padding-top: 20px;
-  font-size: 20px;
+  margin:0 auto;
+  padding-top: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
 .photo{
   display: inline-block;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 /* ---- Footer ---- */
 
 footer {
-  margin: 0 auto;
+
   bottom:0;
-  position:absolute;
+  position: fixed;
   background-color: rgba(20, 76, 85, 0.658);
+<<<<<<< HEAD
+=======
+
+>>>>>>> fedabb866c8738588199dfc8ec0c32ba05223bed
   width: 100%;
-  height: 120px;
+  height: 80px;
   border-radius: 25px 25px 0 0;
   text-align: center;
 }
@@ -118,7 +124,7 @@ footer {
   width: 36px;
   position: relative;
   left:45%;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 24px;
 
 >>>>>>> 5644e44d3d0f6ddb9965fbfe50781c530467c04a
